@@ -65,8 +65,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uG1-IN-mP0" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
-                                <rect key="frame" x="16" y="472" width="200" height="110"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uG1-IN-mP0" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                <rect key="frame" x="53" y="533" width="250" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
                         </subviews>
@@ -81,6 +81,7 @@
                         <outlet property="mealNameLabel" destination="uEV-LC-O8d" id="2FA-jj-mS8"/>
                         <outlet property="nameTextField" destination="EgJ-fE-W1E" id="KZW-1s-oh4"/>
                         <outlet property="photoImageView" destination="DoS-nG-BqO" id="9r9-PV-Fl1"/>
+                        <outlet property="ratingControl" destination="uG1-IN-mP0" id="K5o-Ul-rAN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
